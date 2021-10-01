@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexnavbar</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            /* background-color: #5f626e; */
+        }
+
+        ul {
+            display: flex;
+            /* justify-content: space-between; */
+            /* margin: auto; */
+
+
+        }
+
+        nav li {
+            list-style: none;
+            display: flex;
+            color: yellow;
+            margin: 0 17px
+        }
+
+        li {
+            /* display: flex;
+            row-gap: 10px; */
+            /* position: relative;
+             left: 100; */
+        }
+
+
+
+
+        .container {
+            background-color: black;
+            color: white;
+            height: 60px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            direction: ltr;
+
+
+
+
+
+        }
+
+        .secondcontainer {
+            background-color: aqua;
+            /* justify-content: center; */
+            display: flex;
+            margin: auto;
+            /* flex-wrap: wrap; */
+            justify-content: space-between;
+            height: 50vh;
+            padding: 0 34px;
+            flex-wrap: wrap;
+        }
+
+        .box1 {
+
+            background-color: red;
+            position: relative;
+            height: 50vh;
+
+        }
+
+        .box2 {
+
+            background-color: yellowgreen;
+            height: 50vh;
+            position: relative
+        }
+    </style>
+</head>
+
+
+<body background="black">
+
+    
+    <div class="container">
+
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+
+    <div class="secondcontainer">
+
+        <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dignissimos!</div>
+
+
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dignissimos!</div>
+    </div>
+
+
+</body>
+
+</html>
